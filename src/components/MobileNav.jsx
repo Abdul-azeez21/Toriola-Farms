@@ -14,7 +14,7 @@ const MobileNav = ({ showMenu, active }) => {
       <ul
         className={
           active
-            ? "md:hidden flex-col flex items-center fixed inset-0 justify-center gap-3 bg-green-900/40 backdrop-blur-lg text-white text-base"
+            ? "md:hidden flex-col flex items-center fixed inset-0 justify-center gap-3 bg-green-900/40 backdrop-blur-lg text-white text-xl"
             : "hidden"
         }
       >

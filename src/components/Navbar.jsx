@@ -30,7 +30,7 @@ export const Navbar = () => {
           <div>
             <HiOutlineMenuAlt3
               onClick={showMenu}
-              className="cursor-pointer md:hidden"
+              className="cursor-pointer md:hidden h-5 w-5"
             />
           </div>
           <ul className="hidden md:flex gap-6 text-sm text-black">

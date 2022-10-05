@@ -1,17 +1,13 @@
 import React, { useState } from "react";
 //icon
 import {
-  GiFishCooked,
   GiFactory,
   GiSheep,
   GiGoat,
   GiEggClutch,
-  GiDoubleFish,
-  GiFishEggs,
-  GiWaterBottle,
   GiCorn,
 } from "react-icons/gi";
-import { IoCloseOutline, IoFishSharp } from "react-icons/io5";
+import { IoFishSharp } from "react-icons/io5";
 
 const LocationTabs = () => {
   const [toggle, setToggle] = useState(1);

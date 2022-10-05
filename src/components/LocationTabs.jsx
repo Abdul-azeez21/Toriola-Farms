@@ -1,4 +1,18 @@
 import React, { useState } from "react";
+//icon
+import {
+  GiWheat,
+  GiFishCooked,
+  GiManualMeatGrinder,
+  GiPlantWatering,
+  GiSheep,
+  GiGoat,
+  GiEggClutch,
+  GiDoubleFish,
+  GiFishEggs,
+  GiWaterBottle,
+} from "react-icons/gi";
+import { IoCloseOutline } from "react-icons/io5";
 
 const LocationTabs = () => {
   const [toggle, setToggle] = useState(1);
@@ -45,18 +59,23 @@ const LocationTabs = () => {
         </div>
 
         {/* tabs content */}
-        <div className="px-3">
+        <div className="px-3 py-5">
           {/* ashipa */}
           <div
             className={
               toggle === 1 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
-              <div>Cash Crops</div>
-              <div>Food Crops</div>
-              <div>Vegetables</div>
-              <div>Food processing</div>
+            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
+              <div>
+                <GiPlantWatering className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiManualMeatGrinder className="h-8 w-8 text-center text-green-600" />
+              </div>
             </div>
           </div>
           {/* berger */}
@@ -65,11 +84,22 @@ const LocationTabs = () => {
               toggle === 2 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
-              <div>Goat</div>
-              <div>Cattle</div>
-              <div>Sheep</div>
-              <div>Fresh Eggs</div>
+            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
+              <div>
+                <GiSheep className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiGoat className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiEggClutch className="h-8 w-8 text-center text-green-600" />
+              </div>
             </div>
           </div>
 
@@ -79,11 +109,28 @@ const LocationTabs = () => {
               toggle === 3 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
-              <div>Fingerlings</div>
-              <div>Catfish</div>
-              <div>Bottled water</div>
-              <div>Smoked Catfish</div>
+            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
+              <div>
+                <GiFishEggs className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiDoubleFish className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiFishCooked className="h-8 w-8 text-center text-green-600" />
+              </div>
+              <span className="flex items-center justify-center">
+                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
+              </span>
+              <div>
+                <GiWaterBottle className="h-8 w-8 text-center text-green-600" />
+              </div>
             </div>
           </div>
         </div>

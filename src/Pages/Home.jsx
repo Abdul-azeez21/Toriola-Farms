@@ -61,7 +61,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
@@ -80,7 +80,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
@@ -99,7 +99,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
@@ -118,7 +118,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
@@ -137,7 +137,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
@@ -156,7 +156,7 @@ const Home = () => {
                 initial={{ opacity: 0, translateY: 3 }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 0.5, delay: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
               >
                 <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
 
 const LocationTabs = () => {
   const [toggle, setToggle] = useState(1);
@@ -53,18 +52,12 @@ const LocationTabs = () => {
               toggle === 1 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <motion.div
-              className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed"
-              initial={{ opacity: 0, translateY: 5 }}
-              whileInView={{ opacity: 1, translateY: 0 }}
-              transition={{ duration: 1, delay: 0 }}
-              viewport={{ once: true }}
-            >
+            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
               <div>Cash Crops</div>
               <div>Food Crops</div>
               <div>Vegetables</div>
               <div>Food processing</div>
-            </motion.div>
+            </div>
           </div>
           {/* berger */}
           <div
@@ -72,18 +65,12 @@ const LocationTabs = () => {
               toggle === 2 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <motion.div
-              className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed"
-              initial={{ opacity: 0, translateY: 5 }}
-              whileInView={{ opacity: 1, translateY: 0 }}
-              transition={{ duration: 1, delay: 0 }}
-              viewport={{ once: true }}
-            >
+            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
               <div>Goat</div>
               <div>Cattle</div>
               <div>Sheep</div>
               <div>Fresh Eggs</div>
-            </motion.div>
+            </div>
           </div>
 
           {/* ikorodu */}
@@ -92,18 +79,12 @@ const LocationTabs = () => {
               toggle === 3 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <motion.div
-              className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed"
-              initial={{ opacity: 0, translateY: 5 }}
-              whileInView={{ opacity: 1, translateY: 0 }}
-              transition={{ duration: 1, delay: 0 }}
-              viewport={{ once: true }}
-            >
+            <div className=" py-3 space-y-1 text-center divide-y lg:text-base text-xs divide-dashed">
               <div>Fingerlings</div>
               <div>Catfish</div>
               <div>Bottled water</div>
               <div>Smoked Catfish</div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

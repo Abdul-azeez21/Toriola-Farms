@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <div className="">
-      <nav className="fixed top-0 left-0 right-0 flex place-content-between mx-5 my-3 px-4 lg:px-10 py-2 items-center bg-white/95 shadow-md rounded-md">
+      <nav className="fixed top-0 left-0 right-0 flex place-content-between mx-5 my-3 px-4 lg:px-10 py-2 items-center bg-white shadow-md rounded-md">
         <div className="">
           <a href="/">
             <img

@@ -58,12 +58,12 @@ const Home = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 gap-7 mx-3">
               <motion.div
                 className="bg-cover bg-center bg-home-egg-image rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <GiEggClutch />
@@ -77,12 +77,12 @@ const Home = () => {
 
               <motion.div
                 className="bg-cover bg-center bg-home-catfish-image rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <IoFishSharp />
@@ -96,12 +96,12 @@ const Home = () => {
 
               <motion.div
                 className="bg-cover bg-center bg-home-water-image rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <GiWaterBottle />
@@ -115,12 +115,12 @@ const Home = () => {
 
               <motion.div
                 className="bg-cover bg-center bg-home-cow-image rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <GiCow />
@@ -134,12 +134,12 @@ const Home = () => {
 
               <motion.div
                 className="bg-cover bg-center bg-home-maize-image rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <GiCorn />
@@ -153,12 +153,12 @@ const Home = () => {
 
               <motion.div
                 className="bg-cover bg-center  rounded-lg shadow-lg"
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0 }}
-                viewport={{ once: true }}
+                initial={{ opacity: 0, translateY: 3 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 0.5, delay: 0 }}
+                viewport={{ once: false }}
               >
-                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-600/75">
+                <div className=" text-white lg:p-16 p-14 flex items-center justify-center h-full w-full rounded-lg bg-gradient-to-tr from-green-800/95">
                   <div>
                     <div className="flex items-center justify-center lg:text-4xl text-2xl">
                       <FiMoreHorizontal />

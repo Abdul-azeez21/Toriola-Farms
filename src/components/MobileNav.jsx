@@ -18,7 +18,7 @@ const MobileNav = ({ showMenu, active }) => {
             : "hidden"
         }
       >
-        <VscChromeClose onClick={showMenu} className="cursor-pointer" />
+        <VscChromeClose onClick={showMenu} className="cursor-pointer h-6 w-6" />
         <motion.li
           initial={{ opacity: 0, translateY: 5 }}
           whileInView={{ opacity: 1, translateY: 0 }}

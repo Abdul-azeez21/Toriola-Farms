@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 //icon
 import {
-  GiWheat,
   GiFishCooked,
   GiManualMeatGrinder,
   GiPlantWatering,

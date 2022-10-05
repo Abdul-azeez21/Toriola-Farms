@@ -2,16 +2,16 @@ import React, { useState } from "react";
 //icon
 import {
   GiFishCooked,
-  GiManualMeatGrinder,
-  GiPlantWatering,
+  GiFactory,
   GiSheep,
   GiGoat,
   GiEggClutch,
   GiDoubleFish,
   GiFishEggs,
   GiWaterBottle,
+  GiCorn,
 } from "react-icons/gi";
-import { IoCloseOutline } from "react-icons/io5";
+import { IoCloseOutline, IoFishSharp } from "react-icons/io5";
 
 const LocationTabs = () => {
   const [toggle, setToggle] = useState(1);
@@ -65,15 +65,12 @@ const LocationTabs = () => {
               toggle === 1 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
-              <div>
-                <GiPlantWatering className="h-8 w-8 text-center text-green-600" />
+            <div className=" py-3 space-x-6 text-center flex lg:text-base text-xs">
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiCorn className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiManualMeatGrinder className="h-8 w-8 text-center text-green-600" />
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiFactory className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
             </div>
           </div>
@@ -83,21 +80,15 @@ const LocationTabs = () => {
               toggle === 2 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
-              <div>
-                <GiSheep className="h-8 w-8 text-center text-green-600" />
+            <div className=" py-3 space-x-6 text-center flex lg:text-base text-xs">
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiSheep className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiGoat className="h-8 w-8 text-center text-green-600" />
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiGoat className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiEggClutch className="h-8 w-8 text-center text-green-600" />
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiEggClutch className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
             </div>
           </div>
@@ -108,27 +99,12 @@ const LocationTabs = () => {
               toggle === 3 ? "flex items-center justify-center" : "hidden"
             }
           >
-            <div className=" py-3 space-x-3 text-center flex lg:text-base text-xs">
-              <div>
-                <GiFishEggs className="h-8 w-8 text-center text-green-600" />
+            <div className=" py-3 space-x-6 text-center flex lg:text-base text-xs">
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <IoFishSharp className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiDoubleFish className="h-8 w-8 text-center text-green-600" />
-              </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiFishCooked className="h-8 w-8 text-center text-green-600" />
-              </div>
-              <span className="flex items-center justify-center">
-                <IoCloseOutline className="h-4 w-4 text-center text-orange-500" />
-              </span>
-              <div>
-                <GiWaterBottle className="h-8 w-8 text-center text-green-600" />
+              <div className="rounded-full bg-green-800/75 lg:h-14 lg:w-14 md:h-12 md:w-12 h-12 w-12 flex items-center justify-center">
+                <GiFactory className="lg:h-10 lg:w-10 md:h-8 md:w-8 h-8 w-8 text-center text-white" />
               </div>
             </div>
           </div>

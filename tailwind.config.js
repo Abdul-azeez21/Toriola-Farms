@@ -19,6 +19,8 @@ module.exports = {
         "product-catfish-image": 'url("./assets/images/CATFISH.jpg")',
         "product-cow-image": 'url("./assets/images/COW2.jpg")',
         "product-chicken-image": 'url("./assets/images/RAW CHICKEN.jpg")',
+        //careers
+        "hero-image3": 'url("./assets/images/CAREER.jpg")',
       },
     },
   },

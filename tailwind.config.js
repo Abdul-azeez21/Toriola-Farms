@@ -11,6 +11,8 @@ module.exports = {
         "home-water-image": 'url("./assets/images/WATER.jpg")',
         "home-cow-image": 'url("./assets/images/COW1.jpg")',
         "home-maize-image": 'url("./assets/images/MAIZE.jpg")',
+        //about
+        "hero-image1": 'url("./assets/images/ABOUT.jpg")',
       },
     },
   },

@@ -13,6 +13,12 @@ module.exports = {
         "home-maize-image": 'url("./assets/images/MAIZE.jpg")',
         //about
         "hero-image1": 'url("./assets/images/ABOUT.jpg")',
+        //product
+        "hero-image2": 'url("./assets/images/PRODUCT.jpg")',
+        "product-poultry-image": 'url("./assets/images/poultry.jpg")',
+        "product-catfish-image": 'url("./assets/images/CATFISH.jpg")',
+        "product-cow-image": 'url("./assets/images/COW2.jpg")',
+        "product-chicken-image": 'url("./assets/images/RAW CHICKEN.jpg")',
       },
     },
   },

@@ -33,7 +33,7 @@ const MobileNav = ({ showMenu, active }) => {
           transition={{ duration: 1, delay: 0 }}
           viewport={{ once: false }}
         >
-          <Link to="about">About</Link>
+          <Link to="/about">About</Link>
         </motion.li>
         <motion.li
           initial={{ opacity: 0, translateY: 5 }}
@@ -41,7 +41,7 @@ const MobileNav = ({ showMenu, active }) => {
           transition={{ duration: 1, delay: 0 }}
           viewport={{ once: false }}
         >
-          <Link to="/">Product</Link>
+          <Link to="/product">Product</Link>
         </motion.li>
         <motion.li
           initial={{ opacity: 0, translateY: 5 }}

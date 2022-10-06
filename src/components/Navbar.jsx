@@ -38,10 +38,10 @@ export const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
-              <Link to="about">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
-              <Link to="/">Product</Link>
+              <Link to="/product">Product</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
               <Link to="/">Careers</Link>

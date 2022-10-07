@@ -50,7 +50,7 @@ export const Navbar = () => {
               <Link to="/sustainability">Sustainability</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
-              <Link to="/">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>

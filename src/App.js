@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Product from "./Pages/Product";
 import Careers from "./Pages/Careers";
 import Sustainability from "./Pages/Sustainability";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="product" element={<Product />} />
         <Route path="careers" element={<Careers />} />
         <Route path="sustainability" element={<Sustainability />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

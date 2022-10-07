@@ -55,7 +55,7 @@ const Sustainability = () => {
               className="xl:h-48 xl:w-48 lg:h-48 lg:w-48 md:h-44 md:w-44 h-36 w-36"
             />
           </motion.div>
-          <hr className="border-green-600-25 my-3"></hr>
+          <hr className="my-3"></hr>
           <div className="flex justify-center items-center">
             <div>
               <h1 className="lg:text-xl md:text-xl text-base text-start font-medium py-1">
@@ -91,7 +91,7 @@ const Sustainability = () => {
               className="xl:h-48 xl:w-48 lg:h-48 lg:w-48 md:h-44 md:w-44 h-36 w-36"
             />
           </motion.div>
-          <hr className="border-green-600-25 my-3"></hr>
+          <hr className="my-3"></hr>
           <div className="flex justify-center items-center">
             <div>
               <h1 className="lg:text-xl md:text-xl text-base text-start font-medium py-1">
@@ -126,7 +126,7 @@ const Sustainability = () => {
               className="xl:h-48 xl:w-48 lg:h-48 lg:w-48 md:h-44 md:w-44 h-36 w-36"
             />
           </motion.div>
-          <hr className="border-green-600-25 my-3"></hr>
+          <hr className="my-3"></hr>
           <div className="flex justify-center items-center">
             <div>
               <h1 className="lg:text-xl md:text-xl text-base text-start font-medium py-1">

@@ -65,7 +65,7 @@ const MobileNav = ({ showMenu, active }) => {
           transition={{ duration: 1, delay: 0 }}
           viewport={{ once: false }}
         >
-          <Link to="/">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </motion.li>
         <div className="pt-10">
           <FaLeaf className="h-8 w-8 text-lime-100/50" />

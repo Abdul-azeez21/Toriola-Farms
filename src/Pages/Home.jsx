@@ -36,7 +36,7 @@ const Home = () => {
               />
             </h2>
             <div className="py-2">
-              <a href="/">
+              <a href="/contact">
                 <button className="text-white bg-green-500 hover:bg-green-800 text-sm px-6 py-2 rounded-br-lg rounded-tl-lg">
                   Contact us
                 </button>

@@ -47,7 +47,7 @@ export const Navbar = () => {
               <Link to="/careers">Careers</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
-              <Link to="/">Sustainability</Link>
+              <Link to="/sustainability">Sustainability</Link>
             </li>
             <li className="hover:border-b hover:border-green-900">
               <Link to="/">Contact Us</Link>

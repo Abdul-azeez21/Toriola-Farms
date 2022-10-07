@@ -57,7 +57,7 @@ const MobileNav = ({ showMenu, active }) => {
           transition={{ duration: 1, delay: 0 }}
           viewport={{ once: false }}
         >
-          <Link to="/">Sustainability</Link>
+          <Link to="/sustainability">Sustainability</Link>
         </motion.li>
         <motion.li
           initial={{ opacity: 0, translateY: 5 }}

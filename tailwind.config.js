@@ -21,6 +21,8 @@ module.exports = {
         "product-chicken-image": 'url("./assets/images/RAW CHICKEN.jpg")',
         //careers
         "hero-image3": 'url("./assets/images/CAREER.jpg")',
+        //sustainability
+        "hero-image4": 'url("./assets/images/SUSTAIN.jpg")',
       },
     },
   },

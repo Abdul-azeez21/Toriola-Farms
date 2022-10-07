@@ -17,7 +17,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center xl:mx-42 lg:mx-52 md:mx-48 mx-10 my-16">
+      <div className="flex items-center justify-center xl:mx-52 lg:mx-52 md:mx-48 mx-10 my-16">
         <div>
           <span className="lg:text-xl md:text-xl text-base text-start font-thin py-2">
             <AnimatedText text="We have a fantastic and effective work force. If you think you'd fit right in, take a look at our current vacancies or send us your CV and a cover letter telling us just why Toriola farms needs you!" />

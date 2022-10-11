@@ -2,6 +2,7 @@ import React from "react";
 //components
 import { Navbar } from "../components/Navbar";
 import AnimatedText from "../components/AnimatedText";
+import Footer from "../components/Footer";
 
 const Careers = () => {
   return (
@@ -32,6 +33,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

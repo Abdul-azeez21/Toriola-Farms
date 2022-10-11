@@ -17,7 +17,7 @@ const LocationTabs = () => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="bg-white shadow-2xl p-5 rounded-lg w-full mx-5">
+      <div className="bg-white shadow-lg p-5 rounded-lg w-full mx-5">
         {/* tabs */}
 
         <div className="flex bg-green-800/50 rounded-md p-2 items-center justify-center text-xs lg:text-base text-center text-white">

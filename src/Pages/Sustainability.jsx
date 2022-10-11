@@ -5,6 +5,7 @@ import AnimatedText from "../components/AnimatedText";
 import Sustain1 from "../assets/images/IMG_4001.jpg";
 import Sustain2 from "../assets/images/IMG_4002.jpg";
 import Sustain3 from "../assets/images/IMG_4003.jpg";
+import Footer from "../components/Footer";
 //icon
 import { FaHandHoldingHeart } from "react-icons/fa";
 //motion
@@ -151,6 +152,7 @@ const Sustainability = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

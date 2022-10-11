@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "../components/Navbar";
 import LocationTabs from "../components/LocationTabs";
 import AnimatedText from "../components/AnimatedText";
+import Footer from "../components/Footer";
 
 //icons
 import { GiEggClutch, GiWaterBottle, GiCow, GiCorn } from "react-icons/gi";
@@ -201,6 +202,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

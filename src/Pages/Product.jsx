@@ -1,6 +1,7 @@
 import React from "react";
 //components
 import { Navbar } from "../components/Navbar";
+import Footer from "../components/Footer";
 //motion
 import { motion } from "framer-motion";
 
@@ -77,6 +78,7 @@ const Product = () => {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

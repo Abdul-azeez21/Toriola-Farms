@@ -5,6 +5,7 @@ import AnimatedText from "../components/AnimatedText";
 import About1 from "../assets/images/farmer.jpg";
 import About2 from "../assets/images/About2.jpg";
 import About3 from "../assets/images/About3.jpg";
+import Footer from "../components/Footer";
 //icons
 import { GiCorn } from "react-icons/gi";
 import { MdLocationPin } from "react-icons/md";
@@ -180,6 +181,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

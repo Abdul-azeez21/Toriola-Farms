@@ -1,6 +1,7 @@
 import React from "react";
 //components
 import { Navbar } from "../components/Navbar";
+import Footer from "../components/Footer";
 //icons
 import { FiFacebook, FiTwitter, FiLinkedin } from "react-icons/fi";
 
@@ -172,6 +173,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
